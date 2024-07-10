@@ -4,7 +4,7 @@ const apiClient = axios.create({
     baseURL: 'https://learning.banzait.com/back',
     headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJQb3J0YWwvdXNlcm5hbWUiOiJOaWtpdGFCb3lrbyIsIlBvcnRhbC91c2VyaWQiOiI1NzcyODgzZS0xZTBkLTRiZTctYWZiNS04OGExM2IxOGRiNjIiLCJqdGkiOiIwZDllM2IzZi00ZGU3LTRjY2ItOWI3Mi0wMTVjNzVhNTdiZGEiLCJQb3J0YWwvdG9rZW52ZXJzaW9uIjoiMSIsIlBvcnRhbC9jb250YWN0aWQiOiI0ZDc1Yzg3OC02MDE0LTQzYTEtYjk3Ny0xYjE0ZTg5YTFkZTUiLCJQb3J0YWwvbW9kaWZpZWRvbiI6IjYzODU1NjAxMjQ5MjgzNzg5NiIsImV4cCI6MTcyMDg2ODQ0OSwiaXNzIjoiTGVhcm5pbmciLCJhdWQiOiJMZWFybmluZyBjbGllbnQifQ.QXddARH8qwsrqNgYUSSaHR8IDMc_Fk0WCF6OvmS9gOs`
+        'Authorization': `Bearer token`
     }
 });
 
